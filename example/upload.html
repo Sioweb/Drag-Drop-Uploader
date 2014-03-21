@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Drag & Drop Uploader</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<form id="upload" class="uploader" action="upload.php" method="post" enctype="multipart/form-data">
+				<fieldset>
+					<legend>HTML File Upload</legend>
+					<div>
+						<label for="fileselect">Files to upload:</label>
+						<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+					</div>
+					<input type="submit" value="senden">
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
